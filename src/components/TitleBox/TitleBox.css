@@ -54,3 +54,21 @@
 	color: #03ebdf;
 	border-bottom: 1px solid #03ebdf;
 }
+
+.foot-note {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 65px;
+	padding: 15px;
+	color: #aaa;
+}
+
+.foot-note a {
+	color: #00b5ad;
+}
+
+.foot-note a:hover {
+	color: #03ebdf;
+	border-bottom: 1px solid #03ebdf;
+}

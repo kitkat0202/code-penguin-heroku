@@ -20,7 +20,7 @@ export default class Running extends Component {
             <p>To run app locally look at the <span className="on-click" onClick={this.gotoSetUp}>set up steps</span></p>
             <TitleBox title="Creating Task" titlesize="h3" footer={false}>
                 <p>Tasks can be problems you need solved or mini projects you dont have time to finish and need alittle help from the community. Tasks can easlity be created by clicking the <i style={{color: "#00b5ad"}}>New Task</i> button on the <u>Marketplace</u>, as long as you have the coin to pay for it. </p>
-                <img src={imgNewTask} alt="form image" />
+                <img src={imgNewTask} alt="form" />
             </TitleBox>
             <TitleBox title="Reading Task" titlesize="h3" footer={false}>
                 <p>You can browse all the created taske at the <u>Marketplace</u>. You can also filter the tasks by:</p>
@@ -37,8 +37,8 @@ export default class Running extends Component {
                     <li>Pebble Count</li>
                 </ul>
                 <p>Click on the card to bring the card to front view. Click the card again to flip the card and preview the task details. To look at the task in depth you can click the <i style={{color: "#00b5ad"}}>View</i> button on the card, whick you bring you to the task detail page. This page will show you all the details on the card along with submitted solutions and comments others have made on the card.</p>
-                <img src={imgMarket} alt="marketplace image" />
-                <img src={imgMarket2} alt="marketplace image" />
+                <img src={imgMarket} alt="marketplace" />
+                <img src={imgMarket2} alt="marketplace" />
             </TitleBox>
             <TitleBox title="Solving Task" titlesize="h3" footer={true}>
                 <p>A <a href="https://github.com/">GitHub</a> account is needed to submit a sloultion only a github repo can be submitted as a solution.</p>
