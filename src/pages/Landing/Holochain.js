@@ -8,7 +8,7 @@ export default class Download extends Component {
         return (
         <React.Fragment>
             <a href="https://developer.holochain.org/" target="_blank" rel="noopener noreferrer"><img className="holo-logo" src={HoloLogo} alt="Holochain Logo" /></a>
-            <TitleBox title="Install Holochain" titlesize="h2" footer={true}>
+            <TitleBox title="Install Holochain" titlesize="h2" footer={false}>
                 <h4><u>Installing with Go</u></h4>
                 <ol>
                     <li>Install GO, by downloading the installer for your operating system from below. Note that holochain-proto will only work with GO versions between 1.8 and 1.10. (1.11 will NOT work).</li>

@@ -45,10 +45,6 @@ export default class Running extends Component {
                 <p>To solve a task you need to go the the task detail page toggle to the solution side to the task page and add text and github link. If the creator has already chosen a solution then no new solutions can be submitted. However you can still add comments to the page.</p>
                 <img src={imgTask} alt="task page" />
                 <img src={imgTask2} alt="task page" />
-                <div className="foot-note">
-                    <hr />
-                    <p>* Submitting a comment is similar to submitting a solution you just need to toggle to comments side</p>
-                </div>
             </TitleBox>
             <TitleBox title="Ways to earn more pebbles" titlesize="h3" footer={false}>
                 <h4>There are 2 ways to earn pebbles: </h4>

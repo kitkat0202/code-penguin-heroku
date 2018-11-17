@@ -10,32 +10,6 @@ li {
     margin-bottom: 10px;
 }
 
-.foot-note hr {
-	display: block;
-    height: 1px;
-    border: 0;
-	border-top: 1px solid #444;
-	margin: 0px 30px 10px 30px;
-}
-
-.foot-note {
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	height: 65px;
-	padding: 15px;
-	color: #aaa;
-}
-
-.foot-note a {
-	color: #00b5ad;
-}
-
-.foot-note a:hover {
-	color: #03ebdf;
-	border-bottom: 1px solid #03ebdf;
-}
-
 .terminal-box {
 	font-family: 'Cutive Mono', monospace;
 	background-color: #a7a7a7;
