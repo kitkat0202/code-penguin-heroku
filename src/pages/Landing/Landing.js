@@ -12,7 +12,7 @@ import './Landing.css';
 
 export default class Landing extends Component {
     state = {
-        page: "Additional"
+        page: "Main"
     }
 
     handleState = state => {
