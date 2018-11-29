@@ -24,6 +24,7 @@
 	letter-spacing: 2px;
 	font-size: 18px;
 	color: #fff;
+	width: 400px;
 }
 
 @media (max-width:1024px) {
