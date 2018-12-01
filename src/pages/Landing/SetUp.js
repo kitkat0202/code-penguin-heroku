@@ -6,14 +6,13 @@ export default class SetUp extends Component {
     render() {
         return (
             <TitleBox title="Install Code Penguin" titlesize="h2" footer={false}>
-                <ul>
-                    <li>Before starting, make sure you have an internet connection.</li>
-                </ul>
-                <h3>In the git bash terminal:</h3>
+                
+                <h3>Before starting, make sure you have Holochain installed and initialized, and are connected to the internet.</h3>
+                <h3>In GitBash or Terminal:</h3>
                 <ol>
                     <li>Locate where you want your app folder to be</li>
                     <li>Get the repo: <span className="mono-text">$ git clone https://github.com/cefimenda/code-penguin.git</span></li>
-                    <li>Enter app folder and install the following packages:
+                    <li>Enter the app's root folder and install the following packages:
                         <ul>
                             <li><span className="mono-text">$ cd code-penguin</span> then</li>
                             <li><span className="mono-text">$ yarn </span> or <span className="mono-text">$ npm install</span></li>
@@ -25,9 +24,15 @@ export default class SetUp extends Component {
                             <li><span className="mono-text">$ yarn </span> or <span className="mono-text">$ npm install</span></li>
                         </ul>
                     </li>
-                    <li>Running locally (go to penguin folder from the client folder):
+                    <li>Build the holochain directory on your local machine.
                         <ul>
                             <li><span className="mono-text">$ cd ../penguin</span> then</li>
+                            <li><span className="mono-text">$ hcadmin join . code-penguin</span></li>
+                        </ul>
+                    </li>
+                    <li>Then back to the home directory, and run the start script!
+                        <ul>
+                            <li><span className="mono-text">$ cd ..</span> then</li>
                             <li><span className="mono-text">$ yarn start</span></li>
                         </ul>
                     </li>
